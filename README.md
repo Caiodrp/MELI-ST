@@ -1,7 +1,15 @@
 
 # Pesquisa de Mercado no Mercado Livre com Pipeline na Nuvem e ML
 
-Este projeto é uma solução robusta para a análise de mercado, utilizando a API do Mercado Livre, que é conhecida por sua vasta variedade de produtos e base de compradores. Através deste projeto, você pode obter insights valiosos sobre as tendências do mercado, que podem ser úteis para vendedores, compradores e analistas de mercado.
+O projeto começa com a extração de dados da API do Mercado Livre. Essa extração é orquestrada pelo Apache Airflow, uma ferramenta poderosa para criar, monitorar e ajustar pipelines de dados. O Airflow permite que você programe a extração de dados para ocorrer em intervalos regulares, garantindo que você sempre tenha os dados mais recentes disponíveis para análise.
+
+Os dados extraídos são então armazenados em um Data Lake na nuvem. Um Data Lake é um repositório de armazenamento que mantém dados em seu formato bruto, permitindo que você armazene grandes volumes de dados não estruturados ou semi-estruturados. Isso é especialmente útil quando se lida com uma grande variedade de produtos e compradores, como no caso do Mercado Livre.
+
+Uma vez armazenados, os dados são processados por um modelo de Machine Learning. Especificamente, um algoritmo de K-means é usado para agrupar os produtos em clusters. Isso facilita a busca de produtos semelhantes e ajuda a entender as tendências do mercado.
+
+Finalmente, os resultados são apresentados no Streamlit, uma ferramenta que permite criar rapidamente aplicativos web personalizados para Machine Learning e ciência de dados. Isso pode incluir a visualização dos clusters de produtos, bem como as tendências diárias de demanda por categoria.
+
+Esse fluxo permite que o projeto forneça insights valiosos sobre as tendências do mercado no Mercado Livre, que podem ser úteis para vendedores que desejam ajustar seu inventário e estratégias de preços, compradores que desejam fazer compras mais informadas e analistas de mercado que desejam realizar análises mais profundas.
 
 
 ![Fluxo API-MELI](https://github.com/Caiodrp/MELI-ST/assets/99834159/10c140de-688e-4088-9d19-c606d3894d0e)
