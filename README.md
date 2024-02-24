@@ -1,2 +1,40 @@
-# MELI-ST
-Projeto de Pesquisa de Mercado no Mercado Livre com API e ML
+
+# Pesquisa de Mercado no Mercado Livre com Pipeline na Nuvem e ML
+
+Este projeto é uma solução robusta para a análise de mercado, utilizando a API do Mercado Livre, que é conhecida por sua vasta variedade de produtos e base de compradores. Através deste projeto, você pode obter insights valiosos sobre as tendências do mercado, que podem ser úteis para vendedores, compradores e analistas de mercado.
+
+Abaixo, você encontrará um vídeo demonstrando o funcionamento da aplicação.
+
+https://github.com/Caiodrp/MELI-ST/assets/99834159/c3e6e267-861d-4d20-af79-1e0f07c245b6
+
+## Possíveis Usos
+
+Este projeto pode ser extremamente útil para vários públicos. Por exemplo:
+
+- **Vendedores**: Podem usar as informações para entender quais produtos estão em alta demanda, ajudando-os a ajustar seu inventário e estratégias de preços.
+- **Compradores**: Podem usar o sistema para encontrar produtos semelhantes ou para entender as tendências do mercado, ajudando-os a fazer compras mais informadas.
+- **Analistas de Mercado**: Podem usar os dados para realizar análises mais profundas do mercado do Mercado Livre.
+
+## Plataformas
+
+### AWS
+
+1. **Extração de Dados**: Utilize o Airflow no Amazon Managed Workflows for Apache Airflow (MWAA) para orquestrar a extração de dados da API do Mercado Livre.
+2. **Armazenamento de Dados**: Armazene os dados extraídos no Amazon S3, que atuará como seu Data Lake.
+3. **Processamento de Dados**: Use o Amazon SageMaker para criar e treinar seu modelo de Machine Learning (K-means). Depois de treinado, crie um endpoint no SageMaker para disponibilizar seu modelo.
+4. **Apresentação dos Resultados**: Use o Streamlit para criar uma aplicação web que apresenta os resultados da análise de dados.
+
+### GCP
+
+1. **Extração de Dados**: Utilize o Airflow no Google Cloud Composer para orquestrar a extração de dados da API do Mercado Livre.
+2. **Armazenamento de Dados**: Armazene os dados extraídos no Google Cloud Storage (GCS), que atuará como seu Data Lake.
+3. **Processamento de Dados**: Use o Google Vertex AI para criar e treinar seu modelo de Machine Learning (K-means). Depois de treinado, crie um endpoint no Vertex AI para disponibilizar seu modelo.
+4. **Apresentação dos Resultados**: Use o Streamlit para criar uma aplicação web que apresenta os resultados da análise de dados.
+
+### Modo Gratuito
+
+1. **Extração de Dados**: Configure uma instância local do Airflow para orquestrar a extração de dados da API do Mercado Livre.
+2. **Armazenamento de Dados**: Armazene os dados extraídos no Google Drive, que atuará como seu Data Lake.
+3. **Processamento de Dados**: Carregue seu modelo de Machine Learning (K-means) como um objeto em sua aplicação.
+4. **Apresentação dos Resultados**: Use o Streamlit para criar uma aplicação web que apresenta os resultados da análise de dados.
+
