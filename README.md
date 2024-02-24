@@ -3,6 +3,10 @@
 
 Este projeto é uma solução robusta para a análise de mercado, utilizando a API do Mercado Livre, que é conhecida por sua vasta variedade de produtos e base de compradores. Através deste projeto, você pode obter insights valiosos sobre as tendências do mercado, que podem ser úteis para vendedores, compradores e analistas de mercado.
 
+
+![Fluxo API-MELI](https://github.com/Caiodrp/MELI-ST/assets/99834159/10c140de-688e-4088-9d19-c606d3894d0e)
+
+
 Abaixo, você encontrará um vídeo demonstrando o funcionamento da aplicação.
 
 https://github.com/Caiodrp/MELI-ST/assets/99834159/c3e6e267-861d-4d20-af79-1e0f07c245b6
