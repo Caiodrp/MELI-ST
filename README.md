@@ -3,10 +3,7 @@
 
 Esse projeto utiliza o Apache Airflow para extrair dados da API do Mercado Livre, armazena esses dados em um Data Lake na nuvem, processa os dados com um modelo de Machine Learning (K-means) e apresenta os resultados no Streamlit
 
-
-![Fluxo API-MELI](https://github.com/Caiodrp/MELI-ST/assets/99834159/b781b594-c9d2-4dbf-bb7c-4b6da4441f85)
-
-
+![Fluxo API-MELI](https://github.com/Caiodrp/MELI-ST/assets/99834159/efb14145-d5dd-4374-a3a3-79d2a6f23781)
 
 Abaixo, você encontrará um vídeo demonstrando o funcionamento da aplicação.
 
