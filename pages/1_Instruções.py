@@ -26,7 +26,7 @@ def main():
     st.write(
         '<div style="display:flex; align-items:center; justify-content:center;">'
         '<video width="560" height="315" controls>'
-        '<source src="https://github.com/Caiodrp/Prever-ProducaoGas-ST/raw/main/tutorial.webm" type="video/webm">'
+        '<source src="https://github.com/Caiodrp/MELI-ST/raw/main/Tutorial.mov" type="video/webm">'
         '</video>'
         '</div>',
         unsafe_allow_html=True
